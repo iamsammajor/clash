@@ -78,6 +78,7 @@ proxy-groups:
       - trojan - JP B
       - trojan - SG
       - trojan - KR
+      - Vless JP B
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -89,6 +90,7 @@ proxy-groups:
       - trojan - SG
       - trojan - KR
       - trojan - AU
+      - Vless JP B
       
   - name: 🌍 国外媒体
     type: select
@@ -101,6 +103,7 @@ proxy-groups:
       - trojan - SG
       - trojan - KR
       - trojan - AU
+      - Vless JP B
   - name: 📲 电报信息
     type: select
     proxies:
@@ -111,6 +114,7 @@ proxy-groups:
       - trojan - SG
       - trojan - KR
       - trojan - AU
+      - Vless JP B
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -121,6 +125,7 @@ proxy-groups:
       - trojan - SG
       - trojan - KR
       - trojan - AU
+      - Vless JP B
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -131,6 +136,7 @@ proxy-groups:
       - trojan - SG
       - trojan - KR
       - trojan - AU
+      - Vless JP B
   - name: 📢 谷歌FCM
     type: select
     proxies:
@@ -142,6 +148,7 @@ proxy-groups:
       - trojan - SG
       - trojan - KR
       - trojan - AU
+      - Vless JP B
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -169,6 +176,7 @@ proxy-groups:
       - trojan - SG
       - trojan - KR
       - trojan - AU
+      - Vless JP B
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
