@@ -47,7 +47,7 @@ proxies:
      ws-opts:
        path: "/Date2021"
        headers:
-         Host: 
+         Host: jpb.samvpn.xyz
 
    - name: "trojan - SG"
      type: trojan
