@@ -34,20 +34,18 @@ proxies:
      port: 16062
      password: Sam123321
 
-   - name: "Vless JP B"
-     type: vless
-     server: jpb.samvpn.xyz
-     port: 443
-     uuid: d9e49e13-bdd8-4ea7-8b69-7348e085676a
-     udp: true
-     tls: true
-     network: ws
-     servername: jpb.samvpn.xyz # priority over wss host
-      # skip-cert-verify: true
-     ws-opts:
-       path: "/Date2021"
-       headers:
-         Host: jpb.samvpn.xyz
+   - name: "vless-ws"
+    type: vless
+    server: jpb.samvpn.xyz
+    port: 443
+    uuid: d9e49e13-bdd8-4ea7-8b69-7348e085676a
+    udp: true
+    network: ws
+    servername: jpb.samvpn.xyz # priority over wss host
+     # skip-cert-verify: true
+    ws-path: /Date2021
+    ws-headers:
+      Host: jbp.samvpn.xyz
 
    - name: "trojan - SG"
      type: trojan
