@@ -40,7 +40,7 @@ proxies:
      port: 443
      uuid: d9e49e13-bdd8-4ea7-8b69-7348e085676a
      udp: true
-     tls: false
+     tls: true
      network: ws
      servername: jpb.samvpn.xyz # priority over wss host
       # skip-cert-verify: true
