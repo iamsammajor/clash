@@ -39,7 +39,7 @@ proxies:
      server: jpb.samvpn.xyz
      port: 443
      uuid: d9e49e13-bdd8-4ea7-8b69-7348e085676a
-     udp: false
+     udp: true
      tls: false
      network: ws
      servername: jpb.samvpn.xyz # priority over wss host
@@ -47,7 +47,7 @@ proxies:
      ws-opts:
        path: "/Date2021"
        headers:
-         Host: jpb.samvpn.xyz
+         Host: 
 
    - name: "trojan - SG"
      type: trojan
