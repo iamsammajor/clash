@@ -17,8 +17,8 @@ log-level: warning
  
 proxies:
 
-   - name: "trojan - JP B"
-     type: trojan
-     server: jpb.samvpn.xyz
-     port: 16062
-     password: Sam123321
+- name: "trojan - JP B"
+  type: trojan
+  server: jpb.samvpn.xyz
+  port: 16062
+  password: Sam123321
