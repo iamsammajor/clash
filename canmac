@@ -22,17 +22,9 @@ proxies:
   server: jpb.samvpn.xyz
   port: 16062
   password: Sam123321
-- name: "vless-JP B"
-  type: vless
-  server: server
+
+- name: "trojan - JP p"
+  type: trojan
+  server: jpp.samvpn.xyz
   port: 443
-  uuid: uuid
-  udp: true
-  tls: true
-  network: ws
-  servername: example.com # priority over wss host
-  # skip-cert-verify: true
-  ws-opts:
-    path: "/"
-    headers:
-      Host: example.com
+  password: Sam123321
