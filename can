@@ -34,7 +34,7 @@ proxies:
      port: 16062
      password: Sam123321
 
-   - name: "vless-ws"
+   - name: "Vless JP B"
     type: vless
     server: jpb.samvpn.xyz
     port: 443
