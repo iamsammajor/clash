@@ -52,16 +52,16 @@ proxies:
   type: vless
   server: server
   port: 443
-  uuid: uuid
+  uuid: d9e49e13-bdd8-4ea7-8b69-7348e085676a
   udp: true
   tls: true
   network: ws
-  servername: example.com # priority over wss host
+  servername: jpb.samvpn.xyz
   # skip-cert-verify: true
   ws-opts:
-    path: "/"
+    path: "/Date2021"
     headers:
-      Host: example.com
+      Host: jpb.samvpn.xyz
       
 proxy-groups:
   - name: 🚀 节点选择
